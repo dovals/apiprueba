@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html style="background-color: #AED4E5">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='estilos1.css')}}" />
+<div align="center">
+<form style="background-color: #AED4E5;" class="box" action = "/action_registro" method="POST">
+<p style="color: white;">Registro</p>
+<input type = "number" name="idEstado" placeholder="IDestado" required><br>
+<input type = "text" name="d_estado" placeholder="Nombre Estado" required><br>
+<input type = "text" name="municipio" placeholder="Municipio" required><br>
+ <input type = "text" name="ciudad" placeholder="Ciudad" required><br>
+<input type = "number" name="cp" placeholder="Codigo Postal" required><br>
+<button class="btn3" type = "submit"> Registrar </button>
+<br>
+</form>
+</div>
+</html>

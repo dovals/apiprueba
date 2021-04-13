@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html style="background-color: #AED4E5">
+<title>Busqueda</title>
+<div align="center">
+<br><br><br>
+<p>Busqueda por CP</p>
+<form  style="background-color: #AED4E5;" class="box" action = "/busqueda_cp" method="POST">
+<input class="form-control" type = "text" name="dato" placeholder="Dato">
+<br>
+<button class="btn3" type = "submit"> Buscar </button>
+</form>
+<p>Busqueda por Nombre</p>
+<form  style="background-color:#AED4E5;" class="box" action = "/busqueda_nombre" method="POST">
+<input class="form-control" type = "text" name="nombre" placeholder="Nombre">
+<br>
+<button class="btn3" type = "submit"> Buscar </button><br><br>
+</form>
+
+<a style="color: black;" href="{{url_for('registro')}}">Registrar</a>
+</div>
+</html>
